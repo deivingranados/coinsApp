@@ -1,0 +1,61 @@
+.title_market {
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+  font-family: Times New Roman;
+}
+.image {
+  width: 100%;
+  text-align: end;
+}
+.box_text_market {
+  display: flex;
+  border-bottom: solid rgb(230, 228, 228) 1px;
+  padding: 5px;
+  font-family: Times New Roman;
+}
+.box_market {
+  display: flex;
+  padding: 5px;
+}
+.text_coins {
+  margin-left: auto;
+  font-size: 12px;
+  color: green;
+  font-family: Times New Roman;
+}
+.title_text {
+  font-size: 12px;
+  color: red;
+  font-family: Times New Roman;
+}
+
+@media (min-width: 960px) {
+  .text_coins {
+    font-size: 15px;
+  }
+  .title_text {
+    font-size: 15px;
+  }
+  .content_line {
+    width: 60%;
+    margin-top: 1.5em;
+    padding-top: 5em;
+    padding-left: 50px;
+  }
+  .content_all {
+    display: flex;
+  }
+
+  .content_buttons {
+    margin-top: 10px;
+    text-align: center;
+    padding: 1.2em;
+    display: flex;
+  }
+  .box_text {
+    padding: 0.6em;
+  }
+}

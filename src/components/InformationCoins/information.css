@@ -1,0 +1,57 @@
+.content_table {
+  width: 95%;
+  margin: auto;
+}
+.content_coins {
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.content_text {
+  display: flex;
+  width: 100%;
+}
+.F {
+  background-color: red;
+  color: azure;
+}
+.text_indication {
+  width: 50%;
+  font-size: 15px;
+  font-family: inherit;
+  color: green;
+  margin-left: auto;
+  font-family: Times New Roman;
+}
+
+.text_title {
+  font-size: 15px;
+  font-family: inherit;
+  color: red;
+  font-family: Times New Roman;
+  width: 50%;
+  text-indent: 5px;
+}
+
+@media (min-width: 960px) {
+  .content_coins {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    border-radius: 2px;
+    padding: 0.1em;
+  }
+  .text_indication {
+    font-size: 14;
+    width: 100%;
+    margin-left: 3pt;
+  }
+  .text_title {
+    font-size: 14px;
+    width: 100%;
+    text-align: end;
+  }
+}
